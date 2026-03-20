@@ -3,7 +3,7 @@ const axios = require("axios");
 
 module.exports = async (req, res) => {
   const DESTINATION_URL =
-    "https://apitours.tankwatravels.com/api/telegram/webhook/"; // Your HahuCloud URL
+    "https://apitours.tankwatravels.com/api/telegram/webhook/tankwa_tours_secure_notify_2026_x86_v1_99f2b8/"; // Your HahuCloud URL
 
   if (req.method === "POST") {
     try {
